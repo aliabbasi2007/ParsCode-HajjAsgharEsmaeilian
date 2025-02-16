@@ -1,1 +1,5 @@
-{\rtf1}
+.example {
+    background-color: aqua !important;
+    width: 80px !important;
+    height: 80px !important;
+}
