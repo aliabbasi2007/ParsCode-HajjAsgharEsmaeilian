@@ -1,5 +1,21 @@
-.example {
-    background-color: aqua !important;
-    width: 80px !important;
-    height: 80px !important;
+/* استایل برای بک‌گراند */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./IMG_9625.webp/");
+    background-size: cover; /* تصویر بک‌گراند را فیت می‌کند */
+    background-position: center; /* تصویر بک‌گراند را در مرکز قرار می‌دهد */
+    z-index: -1; /* بک‌گراند را به پشت محتوا می‌برد */
+}
+
+/* استایل برای محتوا */
+.content {
+    position: relative;
+    z-index: 1; /* محتوا را به جلو می‌آورد */
+    padding: 20px;
+    color: white; /* رنگ متن برای خوانایی بهتر */
+    text-align: center;
 }
